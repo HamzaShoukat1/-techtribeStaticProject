@@ -1,8 +1,10 @@
 import Hero from "../assets/Images/Illustration.png"
+import Dots from "../assets/Images/Dot.png"
 
 
 export default function Section() {
     return (
+      <>
         <div className='w-full max-w-360 flex items-center mx-auto px-36 py-24 gap-26'>
 
             <div className='flex flex-col w-full max-w-164.25 gap-8'>
@@ -18,6 +20,8 @@ export default function Section() {
                         Register
                     </button>
 
+
+
                 </div>
 
             </div>
@@ -31,6 +35,20 @@ export default function Section() {
 
 
 
+
         </div>
+          <div className="flex items-center justify-center">
+                <img src={Dots} />
+            </div>
+
+      </>
+      
+        
+
+
     )
 }
+
+
+
+          
