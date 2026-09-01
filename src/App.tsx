@@ -5,6 +5,8 @@ export default function App() {
     <div
       className='text-center text-black'
 
-    >App</div>
+    >
+      
+    </div>
   )
 }

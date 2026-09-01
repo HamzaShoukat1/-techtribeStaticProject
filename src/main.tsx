@@ -4,13 +4,32 @@ import './index.css'
 import App from './App.tsx'
 import Navbar from './Components/Navbar.tsx'
 import Section from './Components/Section.tsx'
+import OurClient from './Components/OurClient.tsx'
+import CommunitySection from './Components/CommunitySection.tsx'
+import ShowOffSection from './Components/ShowOffSection.tsx'
+import Results from './Components/Results.tsx'
+import MakeDesign from './Components/MakeDesign.tsx'
+import Details from './Components/Details.tsx'
+import Docs from './Components/Docs.tsx'
+import Demo from './Components/Demo.tsx'
+import Footer from './Components/Footer.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-   <main className='flex flex-col'>
-     <Navbar />
-     <Section />
-    <App />
-   </main>
+    <main className='flex flex-col gap-[40px] '>
+      <Section />
+      <OurClient />
+      <CommunitySection />/
+      <ShowOffSection />
+      <Results />
+      <MakeDesign />
+      <Details />
+      <Docs />
+
+      <Demo />
+      <Footer />
+
+      <App />
+    </main>
   </StrictMode>,
 )
