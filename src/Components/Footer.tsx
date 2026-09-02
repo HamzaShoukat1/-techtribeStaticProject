@@ -4,7 +4,7 @@ import Nexcent from "../assets/Images/Nexcent.png"
 import send from "../assets/Images/send.png"
 export default function Footer() {
   return (
-    <footer className='bg-[#263238] w-full text-[#F5F7FA] py-[64px] px-[40px] md:px-[144px]'>
+    <footer className='bg-[#263238] w-full text-[#F5F7FA] py-[64px] px-[40px] md:px-[144px] '>
       <div className='w-full max-w-[1150px] mx-auto flex flex-col md:flex-row justify-between items-start gap-12 md:gap-8'>
 
         <div className='flex flex-col gap-[40px] max-w-[300px]'>

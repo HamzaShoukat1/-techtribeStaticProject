@@ -1,7 +1,7 @@
 import teacher from "../assets/Images/pana.png"
 export default function MakeDesign() {
     return (
-        <div className='w-full max-w-360 flex pt-12 px-[144px] justify-between items-center mx-auto mt-3 flex-col md:flex-row '>
+        <div className='w-full max-w-360 flex pt-12 pb-6 px-[144px] justify-between items-center mx-auto mt-3 flex-col md:flex-row '>
 
 
             <div className='w-full max-w-[441.53px]'>

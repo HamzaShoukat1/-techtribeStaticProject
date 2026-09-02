@@ -6,9 +6,9 @@ interface CardProps {
 
 export default function Card({ image, heading, paragraph }: CardProps) {
     return (
-        <div className="w-full max-w-[299px] border border-gray-100 gap-[8px] bg-white rounded-[8px] py-6 px-8  text-center shadow-sm">
+        <div className="w-full max-w-[299px]  border border-gray-50  bg-white rounded-[8px] flex flex-col gap-2 py-4 px-8 text-center shadow-sm">
 
-            <div className="mb-4 flex flex-col items-center justify-center  w-full max-w-[267px] p-6 gap-4 ">
+            <div className=" flex flex-col items-center justify-center  w-full max-w-[267px] gap-4 ">
                 <img
                     className="w-16 h-16 object-contain"
                     src={image}
@@ -21,7 +21,7 @@ export default function Card({ image, heading, paragraph }: CardProps) {
 
             {/* Description Text */}
             <div className="w-full max-w-[251px] gap-[8px]">
-                <p className="text-[14px] font-normal   text-center leading-[20px] tracking-normal text-[#717171]">
+                <p className="text-[14px] font-normal  font-inter text-center leading-[20px] tracking-normal text-[#717171]">
                     {paragraph}
                 </p>
 

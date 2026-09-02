@@ -12,7 +12,7 @@ export {
 
 export default function Docs() {
     return (
-        <div className='w-full max-w-[1440px] px-6 py-12 flex  flex-col mx-auto justify-center items-center gap-8'>
+        <div className='w-full max-w-[1440px] px-6 py-12 flex   flex-col mx-auto justify-center items-center gap-8'>
 
             <div className='w-full max-w-[1100px] flex flex-col gap-3 text-center items-center'>
                 <h1 className='font-semibold text-[36px] leading-[44px] text-[#4D4D4D]'>
@@ -26,7 +26,7 @@ export default function Docs() {
             </div>
 
             {/* Card / Image Container */}
-            <div className='w-full max-w-[1440px] flex  justify-between px-[144px] gap-6 pb-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
+            <div className='w-full max-w-[1440px] flex  justify-between px-[144px] gap-6  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
 
                 <div className='w-full relative max-w-[368px] flex flex-col rounded-lg'>
                     <img src={Image1} />

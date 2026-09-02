@@ -39,7 +39,7 @@ export default function CommunitySection() {
             </div>
 
 
-            <div className=" w-[1440px]  flex justify-between  items-center  px-[144px]">
+            <div className=" w-[1440px]  flex justify-between  items-center gap-[127px]  px-[144px]">
                 {boxData.map((item) => (
                     <Card
                         key={item.id}

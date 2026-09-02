@@ -4,8 +4,8 @@ import arrow from "../assets/Images/Right.png"
 export default function Demo() {
   return (
 
-    <div className="bg-[#F5F7FA] ">
-      <div className='w-full max-w-360 py-[32px] gap-[32px] mt-26 flex justify-center flex-col items-center mx-auto text-center '>
+    <div className="bg-[#F5F7FA]  mt-24 ">
+      <div className='w-full  max-w-360 py-[32px] gap-[32px]  flex justify-center flex-col items-center mx-auto text-center '>
         <h1 className='w-full max-w-[887px]  font-semibold text-[64px] leading-[76px] text-[#263238]'>
           Pellentesque suscipit fringilla libero eu.
 
