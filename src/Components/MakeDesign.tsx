@@ -1,4 +1,3 @@
-import React from 'react'
 import teacher from "../assets/Images/pana.png"
 export default function MakeDesign() {
     return (

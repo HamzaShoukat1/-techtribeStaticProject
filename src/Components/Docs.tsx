@@ -1,10 +1,8 @@
-import React from 'react'
 import Image1 from "../assets/Images/image 18.png"
 import Image2 from "../assets/Images/image 19.png"
 import Image3 from "../assets/Images/image 20(1).png"
 import Content from "../assets/Images/Content.png"
-import Content1 from "../assets/Images/Content(2).png"
-import Content3 from "../assets/Images/Content(3).png"
+
 
 export {
     Image1,

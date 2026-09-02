@@ -1,9 +1,6 @@
-import React from 'react'
 import image from "../assets/Images/image 9.png"
 import Frame from "../assets/Frame 10.png"
 
-import RIght from "../assets/Images/Right.png"
-import teacher from "../assets/Images/pana.png"
 export default function MakeDesign() {
     return (
         <div className='bg-[#F5F7FA]'>

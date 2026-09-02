@@ -1,5 +1,3 @@
-import React from 'react'
-
 export default function Demo() {
   return (
     <div className='w-full max-w-360 py-[32px] gap-[32px] flex justify-center flex-col items-center mx-auto text-center mt-12'>

@@ -1,4 +1,3 @@
-import React from 'react'
 import makeDesign from "../assets/Images/rafiki.png"
 
 export default function ShowOffSection() {
