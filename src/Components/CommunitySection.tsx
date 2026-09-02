@@ -2,26 +2,33 @@ import Icon1 from "../assets/Images/Icon(1).png";
 import Icon2 from "../assets/Images/Icon(2).png";
 import Icon3 from "../assets/Images/Icon(3).png";
 import Card from "../Components/Card";
-
 const boxData = [
     {
         id: 1,
         image: Icon1,
         heading: "Membership Organisations",
-        paragraph: "Our membership management software provides full automation of membership renewals and payments"
+        paragraph:
+            "Our membership management software provides full automation of membership renewals and payments",
+        paragraphWidth: "250px",
     },
+
     {
         id: 2,
         image: Icon2,
         heading: "National Associations",
-        paragraph: "Our membership management software provides full automation of membership renewals and payments"
+        paragraph:
+            "Our membership management software provides full automation of membership renewals and payments",
+        paragraphWidth: "230px",
     },
+
     {
         id: 3,
         image: Icon3,
         heading: "Clubs And Groups",
-        paragraph: "Our membership management software provides full automation of membership renewals and payments"
-    }
+        paragraph:
+            "Our membership management software provides full automation of membership renewals and payments",
+        paragraphWidth: "250px",
+    },
 ];
 
 export default function CommunitySection() {
@@ -39,15 +46,22 @@ export default function CommunitySection() {
             </div>
 
 
-            <div className=" w-[1440px]  flex justify-between  items-center gap-[127px]  px-[144px]">
-                {boxData.map((item) => (
-                    <Card
-                        key={item.id}
-                        image={item.image}
-                        heading={item.heading}
-                        paragraph={item.paragraph}
-                    />
-                ))}
+            <div
+                className="
+    w-full
+    flex
+    justify-between
+    items-start
+  "
+            >                {boxData.map((item) => (
+                <Card
+                    key={item.id}
+                    image={item.image}
+                    heading={item.heading}
+                    paragraph={item.paragraph}
+                    paragraphWidth={item.paragraphWidth}
+                />
+            ))}
             </div>
 
 

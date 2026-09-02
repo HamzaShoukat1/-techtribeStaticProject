@@ -18,7 +18,7 @@ export default function Footer() {
               />
             </div>
 
-            <div className='text-[14px] leading-5 text-[#E8E8E8]/80 font-normal'>
+            <div className='text-[14px] leading-5 text-[#F5F7FA] font-normal'>
               <p>Copyright © 2020 Nexcent ltd.</p>
               <p className='mt-1'>All rights reserved</p>
             </div>
@@ -59,7 +59,7 @@ export default function Footer() {
               <input
                 type="email"
                 placeholder="Your email address"
-                className='w-full bg-[#4e565a] text-[#D9DBE1] placeholder-[#D9DBE1]/60 text-[14px] rounded-[8px] py-3 pl-4 pr-10 focus:outline-none focus:ring-1 focus:ring-[#4CAF4F]'
+                className='w-full bg-[#4e565a] text-[#D9DBE1] placeholder-[#D9DBE1]/60 text-[14px] rounded-[8px] py-3 pl-4 pr-10   max-w-[255px] focus:outline-none focus:ring-1 focus:ring-[#4CAF4F]'
               />
               <button
                 className='absolute right-3 top-1/2 -translate-y-1/2 text-[#D9DBE1] opacity-80 hover:opacity-100 transition-opacity'

@@ -12,7 +12,7 @@ export {
 
 export default function Docs() {
     return (
-        <div className='w-full max-w-[1440px] px-6 py-12 flex   flex-col mx-auto justify-center items-center gap-8'>
+        <div className='w-full max-w-[1440px] px-6 py-3 flex  pb-10  flex-col mx-auto justify-center items-center gap-8'>
 
             <div className='w-full max-w-[1100px] flex flex-col gap-3 text-center items-center'>
                 <h1 className='font-semibold text-[36px] leading-[44px] text-[#4D4D4D]'>
