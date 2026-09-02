@@ -4,10 +4,10 @@ import arrow from "../assets/Images/Right.png"
 export default function MakeDesign() {
     return (
         <div className='bg-[#F5F7FA]'>
-            <div className='w-full max-w-360 flex px-[144px] py-[32px] justify-between items-center mx-auto mt-5 flex justify-between items-center flex-col md:flex-row items-center '>
+            <div className='w-full max-w-360 flex px-[144px] py-[32px] justify-between   mx-auto gap-[78px]   mt-5 flex justify-between  flex-col md:flex-row  '>
 
 
-                <div className='w-full max-w-[326px] rounded-[8px]'>
+                <div className='w-full max-w-[326px]   rounded-[8px]'>
                     <img src={image} className='w-full' />
 
 
@@ -16,7 +16,7 @@ export default function MakeDesign() {
 
 
 
-                <div className='w-full max-w-[748px] gap-8 items-center'>
+                <div className='w-full max-w-[748px] gap-4 flex flex-col  '>
 
                     <h3 className='font-medium text-[16px] leading-6 text-[#717171]'>
                         Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie mi blandit. Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales. Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien, vitae placerat ante feugiat eget. Quisque vulputate odio neque,
@@ -24,7 +24,7 @@ export default function MakeDesign() {
                     </h3>
 
                     <div className='w-full max-w-[748px] gap-2'>
-                        <h1 className='font-semibold text-[20px] leading-[28px] text-[#4CAF4F] '>Tim Smith</h1>
+                        <h1 className='font-semibold text-[20px] leading-[28px] text-[#4CAF4F]  '>Tim Smith</h1>
 
                         <h2 className='text-[#89939E] text-[16px] font-normal' >British Dragon Boat Racing Association</h2>
                         <div className='flex gap-4 w-full max-w-[748px] items-center mt-8'>

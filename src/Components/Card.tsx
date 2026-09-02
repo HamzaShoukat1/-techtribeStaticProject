@@ -57,6 +57,7 @@ export default function Card({
         style={{ width: paragraphWidth }}
       >
         <p
+        
           className="
             text-[14px]
             font-normal
