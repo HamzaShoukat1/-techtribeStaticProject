@@ -27,7 +27,7 @@ const boxData = [
 
 export default function CommunitySection() {
     return (
-        <section className="w-full max-w-[1440px] mx-auto px-6 py-12 md:px-[144px]  items-center flex flex-col items-center bg-[#FFF]">
+        <section className="w-full max-w-[1440px] mx-auto  py-12 md:px-[144px]  items-center flex flex-col items-center bg-[#FFF]  px-36">
             
             {/* Header Text Section */}
             <div className="text-center max-w-[545px] mb-10 flex flex-col gap-2">

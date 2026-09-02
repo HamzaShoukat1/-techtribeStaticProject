@@ -1,59 +1,86 @@
-import Hero from "../assets/Images/Illustration.png"
-import Navbar from "./Navbar"
-import Dots from "../assets/Images/Dot.png"
-
+import Hero from "../assets/Images/Illustration.png";
+import Navbar from "./Navbar";
+import Dots from "../assets/Images/Dot.png";
 
 export default function Section() {
-    return (
-      <>
-      <div className="bg-[#F5F7FA] pb-2">
+  return (
+    <section className="bg-[#F5F7FA] min-h-[680px]">
+      
       <Navbar />
 
-          <div className='w-full max-w-360 flex items-center mx-auto px-36 py-24 justify-center gap-26 flex-col md:flex-row'>
+      {/* Hero */}
+      <div
+        className="
+          max-w-[1152px]
+          mx-auto
+          flex
+          items-center
+          justify-between
+          gap-[104px]
+          pt-[118px]
+        "
+      >
+        {/* Left */}
+        <div className="w-[657px]">
+          <h1
+            className="
+              text-[#4D4D4D]
+              font-semibold
+              text-[64px]
+              leading-[1.25]
+            "
+          >
+            Lessons and insights
+            <span className="block text-[#4CAF4F]">
+              from 8 years
+            </span>
+          </h1>
 
-            <div className='flex flex-col w-full max-w-164.25 gap-8 '>
-                <div className='max-w-164.25'>
-                    <p className='text-[#4D4D4D] font-semibold text-[64px] f leading-16'>  Lessons and insights <span className='text-[#4CAF4F]'>from 8 years</span> </p>
+          <p
+            className="
+              mt-[16px]
+              text-[#717171]
+              text-[16px]
+              leading-[24px]
+            "
+          >
+            Where to grow your business as a photographer:
+            site or social media?
+          </p>
 
-                    <h3 className='mt-3 mb-4 text-[#717171]'>
-                        Where to grow your business as a photographer: site or social media?
-                    </h3>
-
-
-                    <button className='bg-[#4CAF4F] text-center    font-medium text-sm leading-5 text-white border-solid  rounded py-2.5 px-5  pt-3.5 '>
-                        Register
-                    </button>
-
-
-
-                </div>
-
-            </div>
-
-
-            <div className='w-full max-w-97.75'>
-                <img src={Hero} />
-
-            </div>
-
-
-
-
-
+          <button
+            className="
+              mt-[32px]
+              bg-[#4CAF4F]
+              text-white
+              text-[16px]
+              font-medium
+              rounded-[4px]
+              w-[128px]
+              h-[52px]
+            "
+          >
+            Register
+          </button>
         </div>
-          <div className="flex items-center justify-center">
-                <img src={Dots} />
-            </div>
+
+        {/* Right */}
+        <div className="w-[391px] shrink-0">
+          <img
+            src={Hero}
+            alt="Hero illustration"
+            className="w-full h-auto"
+          />
+        </div>
       </div>
 
-      </>
-      
-        
-
-
-    )
+      {/* Dots */}
+      <div className="flex justify-center mt-[64px]">
+        <img
+          src={Dots}
+          alt="Slider dots"
+        />
+      </div>
+    </section>
+  );
 }
-
-
-
-          

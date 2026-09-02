@@ -1,59 +1,79 @@
-import Icon from "../assets/Images/Icon.png"
-import Nexcent from "../assets/Images/Nexcent.png"
+import Icon from "../assets/Images/Icon.png";
+import Nexcent from "../assets/Images/Nexcent.png";
+
 export default function Navbar() {
-    return (
-      <div className="bg-[#F5F7FA]">
-          <div className='w-full  justify-between max-w-360  flex items-center mx-auto mt-2 px-36'>
-            <div className=' gap-2 top-7.5 left-26.25 flex items-center '>
-                <img src={Icon} />
-              
-                <div className="font-semibold text-2xl w-full max-w-[111.49px]">
+  return (
+    <nav className="bg-[#F5F7FA]">
+      <div className="max-w-[1216px] h-[84px] mx-auto flex items-center justify-between">
+        
+        <div className="flex items-center gap-2">
+          <img
+            src={Icon}
+            alt="Nexcent logo"
+            className="w-[32px] h-[32px]"
+          />
 
-                <img src={Nexcent} />
-                </div>
+          <img
+            src={Nexcent}
+            alt="Nexcent"
+            className="w-[111.5px] text-white"
+          />
+        </div>
 
-            </div>
+        {/* Navigation */}
+        <ul className="flex items-center gap-[50px] text-[#18191F] text-[16px]">
+          <li>
+            <a href="#home">Home</a>
+          </li>
 
-            <ul className="w-full max-w-147  top-7.5 left-[425.5px] flex gap-12.5 text-[#18191F] ">
-                <li>
-                    <a href="#home" className="transition-colors duration-200 text-[#18191]  ">Home</a>
-                </li>
-                <li>
-                    <a href="#features" className=" transition-colors duration-200">Service</a>
-                </li>
-                <li>
-                    <a href="#pricing" className="  pb-1">feature</a>
-                </li>
-                <li>
-                    <a href="#contact" className=" transition-colors duration-200">Product</a>
-                </li>
-                <li>
-                    <a href="#Testimonial" className="transition-colors duration-200">Testimonial</a>
-                </li>
-                <li>
-                    <a href="#Testimonial" className="transition-colors duration-200">FAQ</a>
-                </li>
-            </ul>
+          <li>
+            <a href="#service">Service</a>
+          </li>
 
+          <li>
+            <a href="#feature">Feature</a>
+          </li>
 
-            <div className='w-full flex items-center max-w-45.5  top-5.5 left-284.5 gap-3.5'>
+          <li>
+            <a href="#product">Product</a>
+          </li>
 
-                <h2 className='text-[#4CAF4F]'>
-                    Login
-                </h2>
+          <li>
+            <a href="#testimonial">Testimonial</a>
+          </li>
 
+          <li>
+            <a href="#faq">FAQ</a>
+          </li>
+        </ul>
 
-                <button className='bg-[#4CAF4F] text-center  text-[14px] font-medium  leading-5 text-white border-solid tracking-normal rounded-md py-2.5 px-5 gap-[10px]    w-full '>
-                    Sign up
-                </button>
+        {/* Auth */}
+        <div className="flex items-center gap-[34px]">
+          <a
+            href="#login"
+            className="text-[#4CAF4F] text-[14px]"
+          >
+            Login
+          </a>
 
-
-            </div>
-
-
-
-
+          <button
+            className="
+              w-[90px]
+              h-[40px]
+              rounded-[6px]
+              bg-[#4CAF4F]
+              text-white
+              text-[14px]
+              font-medium
+              flex
+              items-center
+              justify-center
+            "
+          >
+            Sign up
+          </button>
         </div>
       </div>
-    )
+    </nav>
+  );
 }

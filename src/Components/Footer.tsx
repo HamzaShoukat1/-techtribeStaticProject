@@ -1,6 +1,7 @@
 import React from 'react'
 import footer from "../assets/Images/Footer.png"
 import SocialIcon from "../assets/Images/Social Links.png"
+import Nexcent from "../assets/Images/Nexcent.png"
 
 export default function Footer() {
   return (
@@ -11,6 +12,11 @@ export default function Footer() {
           <div className='flex flex-col gap-6'>
             <div className='flex items-center gap-2'>
               <img src={footer} alt="Nexcent Logo" className='h-[24px] object-contain' />
+<img
+  src={Nexcent}
+  alt="Nexcent"
+  className="w-[111.5px] h-auto brightness-0 invert"
+/>
             </div>
 
             <div className='text-[14px] leading-5 text-[#E8E8E8]/80 font-normal'>

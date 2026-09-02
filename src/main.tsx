@@ -16,7 +16,7 @@ import Footer from './Components/Footer.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <main className='flex flex-col gap-[40px] '>
+    <main className=' flex-1 flex-col gap-[40px] '>
       <Section />
       <OurClient />
       <CommunitySection />/
