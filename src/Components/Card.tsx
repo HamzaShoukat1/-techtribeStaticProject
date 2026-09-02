@@ -6,20 +6,27 @@ interface CardProps {
 
 export default function Card({ image, heading, paragraph }: CardProps) {
     return (
-        <div className="w-full max-w-[359px] md:max-w-[229px]   bg-white rounded-[8px] px-6 py-8 flex flex-col items-center text-center ">
+        <div className="w-full max-w-[299px] border border-gray-100 gap-[8px] bg-white rounded-[8px] py-6 px-8  text-center shadow-sm">
 
-            <div className="mb-4 flex items-center justify-center">
-                <img className="h-14 w-14 object-contain" src={image} alt={heading} />
-            </div>
-
-            <div className="flex flex-col items-center gap-2">
-                <h2 className="text-[28px] font-bold leading-[36px] text-[#4D4D4D] tracking-tight">
+            <div className="mb-4 flex flex-col items-center justify-center  w-full max-w-[267px] p-6 gap-4 ">
+                <img
+                    className="w-16 h-16 object-contain"
+                    src={image}
+                    alt={heading}
+                />
+                <h2 className="text-[24px] md:text-[28px] font-bold leading-[32px] md:leading-[36px] text-[#4D4D4D] tracking-normal">
                     {heading}
                 </h2>
-                <p className="text-[14px] font-normal leading-[20px] text-[#717171] max-w-[251px]">
+            </div>
+
+            {/* Description Text */}
+            <div className="w-full max-w-[251px] gap-[8px]">
+                <p className="text-[14px] font-normal   text-center leading-[20px] tracking-normal text-[#717171]">
                     {paragraph}
                 </p>
+
             </div>
+
 
         </div>
     );

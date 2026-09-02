@@ -1,7 +1,7 @@
 import teacher from "../assets/Images/pana.png"
 export default function MakeDesign() {
     return (
-        <div className='w-full max-w-360 flex px-[144px] justify-between items-center mx-auto mt-3 flex-col md:flex-row '>
+        <div className='w-full max-w-360 flex pt-12 px-[144px] justify-between items-center mx-auto mt-3 flex-col md:flex-row '>
 
 
             <div className='w-full max-w-[441.53px]'>
@@ -22,7 +22,7 @@ export default function MakeDesign() {
 
                 </div>
 
-                <button className='bg-[#4CAF4F] text-center py-[14px] px-[32px] mt-3 font-medium text-sm rounded text-white w-full max-w-[151px] transition-colors hover:bg-[#3E8E41]'>
+                <button className='bg-[#4CAF4F]  cursor-pointer text-center py-[14px] px-[32px] gap-[10px] mt-10 mt-3 font-medium text-sm rounded text-white w-full max-w-[151px] transition-colors hover:bg-[#3E8E41]'>
                     Learn More
                 </button>
 

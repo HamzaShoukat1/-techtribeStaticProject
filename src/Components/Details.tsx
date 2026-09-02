@@ -1,10 +1,10 @@
 import image from "../assets/Images/image 9.png"
 import Frame from "../assets/Frame 10.png"
-
+import arrow from "../assets/Images/Right.png"
 export default function MakeDesign() {
     return (
         <div className='bg-[#F5F7FA]'>
-            <div className='w-full max-w-360 flex px-[144px] py-[32px] justify-between items-center mx-auto mt-3 flex justify-between items-center flex-col md:flex-row items-center '>
+            <div className='w-full max-w-360 flex px-[144px] py-[32px] justify-between items-center mx-auto mt-5 flex justify-between items-center flex-col md:flex-row items-center '>
 
 
                 <div className='w-full max-w-[326px] rounded-[8px]'>
@@ -27,12 +27,15 @@ export default function MakeDesign() {
                         <h1 className='font-semibold text-[20px] leading-[28px] text-[#4CAF4F] '>Tim Smith</h1>
 
                         <h2 className='text-[#89939E] text-[16px] font-normal' >British Dragon Boat Racing Association</h2>
-
-                        <div className='flex gap-8 w-full max-w-[748px] items-center mt-8'>
-                            <img src={Frame} />
+                        <div className='flex gap-4 w-full max-w-[748px] items-center mt-8'>
+                            <img src={Frame} alt="icon" />
                             <h1 className='font-semibold text-[20px] leading-5 text-[#4CAF4F]'>Meet all customers</h1>
 
+                            <span className="w-full max-w-[24px]">
+                                <img src={arrow} alt="arrow right" />
+                            </span>
                         </div>
+
 
                     </div>
 

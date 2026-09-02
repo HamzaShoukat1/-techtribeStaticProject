@@ -26,23 +26,23 @@ export default function Docs() {
             </div>
 
             {/* Card / Image Container */}
-            <div className='w-full max-w-[1440px] flex  justify-between px-[144px] gap-6 mt-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
+            <div className='w-full max-w-[1440px] flex  justify-between px-[144px] gap-6 pb-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
 
                 <div className='w-full relative max-w-[368px] flex flex-col rounded-lg'>
                     <img src={Image1} />
-                    <img className='absolute -bottom-28 ' src={Content} />
+                    <img className='absolute -bottom-28 cursor-pointer' src={Content} />
 
                 </div>
 
                 <div className='w-full relative max-w-[368px] flex flex-col rounded-lg'>
                     <img src={Image2} />
-                    <img className='absolute -bottom-28 ' src={Content} />
+                    <img className='absolute -bottom-28  cursor-pointer' src={Content} />
 
                 </div>
 
                 <div className='w-full relative max-w-[368px] flex flex-col rounded-lg'>
                     <img src={Image3} />
-                    <img className='absolute -bottom-28 ' src={Content} />
+                    <img className='absolute -bottom-28  cursor-pointer ' src={Content} />
 
                 </div>
 

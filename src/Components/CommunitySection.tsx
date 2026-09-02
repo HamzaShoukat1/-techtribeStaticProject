@@ -26,8 +26,8 @@ const boxData = [
 
 export default function CommunitySection() {
     return (
-        <section className="w-full max-w-[1440px] mx-auto  py-12 md:px-[144px]  items-center flex flex-col items-center bg-[#FFF]  px-36">
-            
+        <section className="w-full max-w-[1440px] mx-auto  py-12 md:px-[144px]  items-center flex flex-col  bg-[#FFF]  px-36">
+
             {/* Header Text Section */}
             <div className="text-center max-w-[545px] mb-10 flex flex-col gap-2">
                 <h1 className="text-[36px] font-semibold leading-[44px] text-[#4D4D4D]">
@@ -38,8 +38,8 @@ export default function CommunitySection() {
                 </p>
             </div>
 
-            {/* Cards Row Layout Grid */}
-            <div className="w-full flex flex-col md:flex-row items-center justify-between gap-2  md:gap-4 flex-wrap  ">
+
+            <div className=" w-[1440px]  flex justify-between  items-center  px-[144px]">
                 {boxData.map((item) => (
                     <Card
                         key={item.id}
@@ -49,6 +49,7 @@ export default function CommunitySection() {
                     />
                 ))}
             </div>
+
 
         </section>
     );

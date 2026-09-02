@@ -41,7 +41,7 @@ const data = [
 export default function Results() {
   return (
    <div className='bg-[#F5F7FA]'>
-     <div className='w-full max-w-[1440px]  justify-between flex items-center  mx-auto py-16 px-36 flex-col md:flex-row'>
+     <div className='w-full max-w-[1440px]  justify-between flex items-center gap-3  mx-auto py-16 px-36 flex-col md:flex-row'>
 
 
       <div className='w-full max-w-[540px] gap-2'>

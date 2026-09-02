@@ -28,7 +28,7 @@ export default function OurClient() {
   ];
 
   return (
-    <section className="w-full bg-white">
+    <section className="w-full bg-white pt-10">
       <div
         className="
           w-full

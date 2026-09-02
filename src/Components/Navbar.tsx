@@ -10,13 +10,13 @@ export default function Navbar() {
           <img
             src={Icon}
             alt="Nexcent logo"
-            className="w-[32px] h-[32px]"
+            className="w-[32px] h-[32px] cursor-pointer"
           />
 
           <img
             src={Nexcent}
             alt="Nexcent"
-            className="w-[111.5px] text-white"
+            className="w-[111.5px] text-white cursor-pointer"
           />
         </div>
 
@@ -58,6 +58,7 @@ export default function Navbar() {
 
           <button
             className="
+            cursor-pointer
               w-[90px]
               h-[40px]
               rounded-[6px]

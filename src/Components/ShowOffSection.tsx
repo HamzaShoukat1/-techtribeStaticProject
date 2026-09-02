@@ -2,7 +2,7 @@ import makeDesign from "../assets/Images/rafiki.png"
 
 export default function ShowOffSection() {
     return (
-        <div className='w-full max-w-[1440px]  flex gap-[32px] flex-col md:flex-row justify-between mx-auto items-center px-36'>
+        <div className='w-full max-w-[1440px]  flex gap-[32px] flex-col md:flex-row justify-between mx-auto items-center px-36 pb-14'>
 
             <div className='w-full max-w-[442px] flex-shrink-0'>
                 <img src={makeDesign} alt="Design Showcase" className="" />
@@ -23,7 +23,7 @@ export default function ShowOffSection() {
                     </p>
                 </div>
 
-                <button className='bg-[#4CAF4F] text-center py-[14px] px-[32px] font-medium text-sm rounded text-white w-full max-w-[151px] transition-colors hover:bg-[#3E8E41]'>
+                <button className='bg-[#4CAF4F] cursor-pointer text-center py-[14px] px-[32px] font-medium text-sm rounded text-white w-full max-w-[151px] transition-colors hover:bg-[#3E8E41]'>
                     Learn More
                 </button>
 

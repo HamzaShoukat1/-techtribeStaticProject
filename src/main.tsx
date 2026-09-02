@@ -13,9 +13,10 @@ import Docs from './Components/Docs.tsx'
 import Demo from './Components/Demo.tsx'
 import Footer from './Components/Footer.tsx'
 
+
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <main className=' flex-1 flex-col gap-[40px] '>
+    <main className=' flex-1 min-h-screen flex-col gap-10 overflow-hidden '>
       <Section />
       <OurClient />
       <CommunitySection />/
@@ -25,7 +26,7 @@ createRoot(document.getElementById('root')!).render(
       <Details />
       <Docs />
 
-      <Demo />
+      <Demo/>
       <Footer />
 
       <App />

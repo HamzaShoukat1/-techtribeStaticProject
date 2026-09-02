@@ -4,7 +4,7 @@ import Dots from "../assets/Images/Dot.png";
 
 export default function Section() {
   return (
-    <section className="bg-[#F5F7FA] min-h-[680px]">
+    <section className="bg-[#F5F7FA]  pb-4">
       
       <Navbar />
 
@@ -50,6 +50,7 @@ export default function Section() {
 
           <button
             className="
+            cursor-pointer
               mt-[32px]
               bg-[#4CAF4F]
               text-white
