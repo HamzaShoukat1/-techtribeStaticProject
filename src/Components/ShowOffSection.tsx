@@ -2,7 +2,7 @@ import makeDesign from "../assets/Images/rafiki.png"
 
 export default function ShowOffSection() {
     return (
-        <div className='w-full max-w-[1440px]  flex gap-[32px] flex-col md:flex-row justify-between mx-auto items-center px-36 pb-14'>
+        <div className='w-full max-w-[1440px]  flex gap-[32px] flex-col md:flex-row  mx-auto items-center px-44 pb-14'>
 
             <div className='w-full max-w-[442px] flex-shrink-0'>
                 <img src={makeDesign} alt="Design Showcase" className="" />
