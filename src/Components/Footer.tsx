@@ -1,4 +1,3 @@
-import React from 'react'
 import footer from "../assets/Images/Footer.png"
 import SocialIcon from "../assets/Images/Social Links.png"
 import Nexcent from "../assets/Images/Nexcent.png"
