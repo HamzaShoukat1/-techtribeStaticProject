@@ -35,13 +35,13 @@ export default function Docs() {
                 </div>
 
                 <div className='w-full relative max-w-[368px] flex flex-col rounded-lg'>
-                    <img src={Image1} />
+                    <img src={Image2} />
                     <img className='absolute -bottom-28 ' src={Content} />
 
                 </div>
 
                 <div className='w-full relative max-w-[368px] flex flex-col rounded-lg'>
-                    <img src={Image1} />
+                    <img src={Image3} />
                     <img className='absolute -bottom-28 ' src={Content} />
 
                 </div>
