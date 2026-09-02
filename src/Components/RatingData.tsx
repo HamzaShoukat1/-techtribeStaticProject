@@ -1,4 +1,3 @@
-import React from 'react'
 
 export default function RatingData({ Image, numbers, name }: any) {
     return (
